@@ -18,12 +18,15 @@ BARBER est un site web fictif conçu pour un salon de coiffure moderne. Il prés
     -`tarifs-reservation.html` : Une page pour consulter les tarifs et prendre rendez-vous.
     -`galerie.html` : Un portfolio visuel des créations du salon.
 
+-Formulaire de Réservation : Les clients peuvent facilement prendre rendez-vous via un formulaire de contact propulsé par Formspree pour une gestion sans serveur.
+
  Technologies Utilisées
 
 -HTML5
 -CSS3
 -Bootstrap 5 (pour le design et la responsivité)
 -JavaScript (pour les fonctionnalités de Bootstrap)
+-Formspree (pour la gestion des envois de formulaire)
 -Google Fonts (pour la police d'écriture)
 
 Ce projet est une démonstration des capacités de Bootstrap 5 pour créer rapidement et efficacement un site web moderne et entièrement fonctionnel.

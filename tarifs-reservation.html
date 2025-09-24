@@ -86,12 +86,12 @@
                     <p class="text-center lead">
                         Utilisez le formulaire ci-dessous pour réserver votre session. Nous vous recontacterons sous 24h pour confirmer l'horaire.
                     </p>
-                    <form>
+                    <form action="https://formspree.io/f/mjkavlnb" method="POST">
                         <div class="row g-3">
-                            <div class="col-md-6"><input type="text" class="form-control" placeholder="Nom" required></div>
-                            <div class="col-md-6"><input type="email" class="form-control" placeholder="Email" required></div>
-                            <div class="col-12"><input type="text" class="form-control" placeholder="Service souhaité" required></div>
-                            <div class="col-12"><textarea class="form-control" placeholder="Votre message ou questions" rows="4" required></textarea></div>
+                            <div class="col-md-6"><input type="text" class="form-control" placeholder="Nom" name="nom"required></div>
+                            <div class="col-md-6"><input type="email" class="form-control" placeholder="Email" name="email"required></div>
+                            <div class="col-12"><input type="text" class="form-control" placeholder="Service souhaité" name="service-souhaite" required></div>
+                            <div class="col-12"><textarea class="form-control" name="message"placeholder="Votre message ou questions" rows="4" required></textarea></div>
                             <div class="col-12 text-center"><button type="submit" class="btn cta fw-bold">Envoyer ma demande</button></div>
                         </div>
                     </form>
